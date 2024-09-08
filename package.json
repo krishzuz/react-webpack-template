@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode=development",
     "build": "webpack --mode development",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf build"
   },
   "author": "",
   "license": "ISC",
