@@ -10,6 +10,7 @@ export default function App() {
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </div>

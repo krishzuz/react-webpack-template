@@ -7,7 +7,7 @@ const CompressionWebpackPlugin = require("compression-webpack-plugin");
 //   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.jsx", // Entry point of your application
   output: {
     path: path.resolve(__dirname, "build"),
